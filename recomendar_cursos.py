@@ -2,9 +2,7 @@ import streamlit as st
 import json
 import re
 
-# ... (código para load_faq_data si lo mantienes para FAQs generales)
-
-# Datos de los cursos (podrías cargarlos desde un JSON similar a faq_data.json)
+# Datos de los cursos (Tambien se podrían cargar desde un JSON similar y vincularlo con funcion)
 cursos_info = {
     "Virtual T": {
         "description": "100% práctico, diseñado para docentes, capacitadores y formadores que quieren actualizarse en nuevas metodologías sin complicarse la vida. Aprenderás a usar herramientas tecnológicas, aplicar metodologías ágiles, mantener la atención de tus estudiantes y convertir tus clases en experiencias memorables. Incluye módulos sobre emociones, atención, transformación digital educativa e inteligencia emocional educativa.",
@@ -139,8 +137,7 @@ for chat_entry in st.session_state.chat_history:
 if st.session_state.recommendation_stage < len(questions):
     current_question_data = questions[st.session_state.recommendation_stage]
 
-    # **MODIFICACIÓN CLAVE AQUÍ:**
-    # Solo agrega la pregunta al historial si es una nueva pregunta o si no se ha mostrado aún en este turno
+    # Solo agrega la pregunta al historial si es una nueva pregunta o si no se ha mostrado 
     if st.session_state.recommendation_stage != st.session_state.last_displayed_question:
         with st.chat_message("assistant"):
             st.markdown(f"**Pregunta {st.session_state.recommendation_stage + 1}:** {current_question_data['text']}")
@@ -176,7 +173,7 @@ if st.session_state.recommendation_stage < len(questions):
                 st.rerun() # Rerun to update the display
 
 else:
-    # Mostrar la recomendación final
+    # Muestra la recomendación final
     recommendation_text, recommended_courses_list = get_recommendation()
     # Solo añade la recomendación al historial si no es la última entrada
     if not st.session_state.chat_history or st.session_state.chat_history[-1]["content"] != recommendation_text:
