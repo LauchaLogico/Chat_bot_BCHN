@@ -14,7 +14,7 @@ Liderazgo con propósito, equipos colaborativos, cambios positivos, liderazgo em
 ### Disrupted: 
 Inteligencia artificial (IA), Web3, Chat GPT, IA Generativa, Agentes de IA, Ingeniería de Prompt. 
 ### D Mentes Verdes:
-Sostenibilidad en educación, eco-conciencia, hábitos sostenibles (gestión de recursos, energía, residuos), proyectos sostenibles, impacto ambiental.
+Sostenibilidad en educación, eco-conciencia, hábitos sostenibles (gestión de recursos, energía, residuos), proyectos sostenibles, impacto ambiental. \
 Lo primero que hice fue como, segun las respuestas de cinco preguntas puedo decidir que curso recomendar. El numero de preguntas fue arbitrario. 
 La idea, entonces, fue la siguiente. Segun la respues de cada pregunta se va asignando un puntaje a cada curso, cuando se responden las 5 pregustas se suman los puntos obtenidos por cada uno y el que más puntos tiene es el curso recomendado. 
 
