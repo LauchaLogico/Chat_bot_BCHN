@@ -27,13 +27,14 @@ Todo comentario y sugerencia será bienvenido, muchas gracias
 ## Contenido
 
 $recomendar_cursos.py$ Programa principal  \
-$requirements.txt:$ requerimientos para que todo funcione correctamente \
+$requirements.txt:$ Libreria necesarias. Instalar antes de correr el scrip \
+pip install -r requirements.txt
 
 ## Tecnología
 
 El programa se generó uyilizando lenguaje Python. Las librerias necesarias para que todo funcione correctamente son las siguientes: \
 streamlit (importada como st) - Es un framework para crear aplicaciones web interactivas en Python, ideal para dashboards y visualizaciones de datos. \
-json - Es un módulo estándar de Python para trabajar con datos en formato JSON (JavaScript Object Notation). \
-re - Es el módulo de expresiones regulares (regex) de Python, usado para búsqueda y manipulación de patrones en cadenas de texto. \
+json - Es un módulo estándar de Python para trabajar con datos en formato JSON (JavaScript Object Notation). No requiere instalación\
+re - Es el módulo de expresiones regulares (regex) de Python, usado para búsqueda y manipulación de patrones en cadenas de texto. No requiere instalación\
 
 Para la visualización de la aplicacion se utilizó la página de [Streamlit](https://streamlit.io/)
