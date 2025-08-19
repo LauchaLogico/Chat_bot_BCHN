@@ -26,7 +26,7 @@ Todo comentario y sugerencia será bienvenido, muchas gracias
 
 ## Contenido
 
-$recomendar_cursos.py$ Programa principal  \
+$recomendar cursos.py$ Programa principal  \
 $requirements.txt:$ Libreria necesarias. Instalar antes de correr el scrip \
 pip install -r requirements.txt
 
